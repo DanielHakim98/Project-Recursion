@@ -1,3 +1,5 @@
+require_relative "merge_sort"
+
 def fibs(num)
   fib_list = []
   (num + 1).times do |i|
@@ -20,3 +22,7 @@ p fibs(6)
 puts puts
 puts "With Recursion method: "
 p fibs_rec(6)
+puts puts
+puts "Merge Sorting Algorithm"
+arr = [5,2,1,4,2]
+p merge_sort(arr)
